@@ -58,7 +58,7 @@ a:active{
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    word word-spacing: 0.7em;
+    word word-spacing:  0.7em;
 }
 
 .box-2{
@@ -157,5 +157,16 @@ list-style: none;
     top: 400px;
     left: 0px;
     border-left:3px solid navy;
+}
+
+
+.my-list li:first-child{
+    background: red;
+}
+.my-list li:last-child{
+    background: blue;
+}
+.my-list li:nth-child(5){
+    background: yellow;
 }
 
