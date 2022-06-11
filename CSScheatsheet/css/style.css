@@ -25,6 +25,22 @@ a:active{
    margin: auto;
 }
 
+.button{
+    padding: 10px 15px;
+    background-color: #000;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    background:red ;
+    color:#fff;
+}
+
+.clr{
+    clear: both;
+}
+
 .box-1{
   background-color:#333; 
   color: #f4f4f4; 
@@ -70,3 +86,45 @@ list-style: none;
     padding: 6px;
     border-bottom:dotted 1px #333;
 }
+
+.my-form{
+    padding:20px;
+}
+
+.my form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    width: 70%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    width: 30%;
+    float: right;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
